@@ -1,0 +1,12 @@
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 125px;
+  top: 20px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}

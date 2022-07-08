@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "App": ["src/App"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

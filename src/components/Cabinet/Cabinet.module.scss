@@ -1,0 +1,138 @@
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d4d4f;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 80px;
+  .cabinet {
+    display: flex;
+    margin-top: 40px;
+    .menu {
+      ul {
+        border: 2px solid #ededf4;
+        border-radius: 5px;
+        .menuActive {
+          background-color: #009cb4;
+        }
+        li {
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          font-size: 18px;
+          color: #676a71;
+          padding: 23px 94px 23px 42px;
+          cursor: pointer;
+          border-bottom: 1px solid #ededf4;
+
+          border-radius: 0px;
+          &:hover {
+            color: #009cb4;
+          }
+          svg {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+    .info {
+      padding-left: 130px;
+      .name {
+        display: flex;
+        align-items: center;
+        padding-bottom: 36px;
+        border-bottom: 2px solid #ededf4;
+        img {
+          width: 48px;
+          height: 48px;
+        }
+        .animation {
+          background-color: #009cb4;
+        }
+        h3 {
+          margin: 0;
+          margin-left: 20px;
+          font-weight: 700;
+          font-size: 24px;
+          color: #231f20;
+        }
+      }
+      .userData {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 36px;
+        input {
+          padding: 17px 18px;
+          padding-right: 38px;
+          width: 310px;
+          background: #f6f6f9;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          margin-bottom: 20px;
+        }
+        label {
+          margin-bottom: 5px;
+          color: #a8aaae;
+          font-weight: 500;
+          font-size: 14px;
+        }
+        .mainData {
+          display: grid;
+          display: flex;
+          flex: 0;
+          margin: auto;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        .containerInput {
+          position: relative;
+          display: flex;
+          flex-direction: column-reverse;
+          .eye {
+            display: block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: 15px;
+            top: 38px;
+            cursor: pointer;
+          }
+        }
+        .password {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .btnSave {
+        margin-top: 73px;
+        width: 270px;
+        height: 56px;
+        background: #009cb4;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.exit {
+}

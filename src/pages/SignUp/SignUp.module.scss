@@ -1,0 +1,161 @@
+.container {
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.returnMain {
+  padding: 60px 0 0 10px;
+  display: flex;
+  p {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+  a {
+    display: flex;
+  }
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  a {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.01em;
+
+    color: #009cb4;
+  }
+  .autorization {
+    font-family: 'Manrope';
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #231f20;
+    margin-bottom: 40px;
+  }
+
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .containerInput {
+      position: relative;
+      display: flex;
+      flex-direction: column-reverse;
+      input:focus ~ label,
+      label:focus {
+        color: #009cb4;
+      }
+      input:focus {
+        border: 2px solid #009cb4;
+        padding: 15px 16px;
+      }
+
+      .error {
+        margin-top: -15px;
+        margin-bottom: 20px;
+        color: red;
+        font-size: 12px;
+      }
+      .correct {
+        border: 1px solid #00b247;
+      }
+      .uncorrect {
+        border: 1px solid red;
+      }
+    }
+    // .correctImg {
+    //   &:after {
+    //     content: '';
+    //     position: absolute;
+    //     background: url(../../../public/images/validationOk.svg);
+    //     width: 20px;
+    //     height: 20px;
+    //     right: -32px;
+    //     top: 38px;
+    // //   }
+    // }
+    input {
+      padding: 17px 18px;
+      margin-bottom: 20px;
+
+      gap: 10px;
+      background: #f6f6f9;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    ::placeholder {
+      font-weight: 500;
+      font-size: 14px;
+      color: #c6c6c6;
+    }
+    label {
+      font-weight: 500;
+      font-size: 14px;
+      color: #676a71;
+      padding-bottom: 5px;
+    }
+    .remMeLabel {
+      margin-left: 14px;
+    }
+    .remMeInput {
+      margin: 0 0 21px 0;
+    }
+    .butLogin {
+      padding: 16px 0px;
+      gap: 10px;
+      background: #009cb4;
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      &:hover {
+        background-color: #01b8d4;
+      }
+      &:active {
+        background-color: #01bedb;
+      }
+    }
+    .forgotPass {
+      margin: 20px 0 40px 0;
+      text-align: center;
+      color: #009cb4;
+    }
+  }
+  .autorizationWith {
+    p {
+      margin-top: 0;
+      padding: 16px 0px;
+      text-align: center;
+      text-decoration-line: underline;
+      cursor: pointer;
+      &:hover {
+        border: 2px solid #009cb4;
+        border-radius: 5px;
+        padding: 14px 0px;
+        color: #009cb4;
+      }
+    }
+  }
+  .withoutAcc {
+    p {
+      text-align: center;
+    }
+    a {
+    }
+  }
+}

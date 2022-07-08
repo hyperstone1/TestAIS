@@ -1,0 +1,100 @@
+.footer {
+  padding-top: 141px;
+  padding-bottom: 80px;
+
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+  }
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  ul {
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    .footerInfo {
+      display: flex;
+      border-bottom: 3px solid #ededf4;
+      border-radius: 3px;
+      padding-bottom: 40px;
+      justify-content: space-between;
+      .logo {
+        .begin {
+          width: 259px;
+          height: 63px;
+          margin-top: 20px;
+          color: #676a71;
+        }
+        .developer {
+          h5 {
+            margin-bottom: 10px;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 16px;
+          }
+          .company {
+            width: 361px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #676a71;
+            margin-bottom: 5px;
+          }
+          .address {
+            font-weight: 500;
+            font-size: 14px;
+            color: #a8aaae;
+          }
+        }
+      }
+
+      .information {
+        width: 30%;
+        li {
+          padding-top: 10px;
+          list-style-type: none;
+        }
+      }
+      .techSupport {
+        width: 50%;
+        .timeWork {
+          width: 270px;
+          padding-bottom: 11px;
+          color: #676a71;
+        }
+        p {
+          margin-top: 10px;
+          color: #4d4d4f;
+        }
+      }
+      .contacts {
+        width: 30%;
+        h3 {
+        }
+        p {
+          margin-top: 10px;
+          color: #4d4d4f;
+        }
+        a {
+          margin-top: 10px;
+          color: #009cb4;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .copyright {
+    padding-top: 20px;
+    p {
+      text-align: center;
+      font-weight: 500;
+      font-size: 14px;
+      color: #c6c6c6;
+    }
+  }
+}

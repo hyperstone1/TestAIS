@@ -1,0 +1,129 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo_searchbar {
+  position: relative;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .searchBar {
+    position: relative;
+    margin-left: 30px;
+    .search {
+      position: relative;
+      display: block;
+
+      padding: 10px 0px 10px 35px;
+      border: none;
+      background: #f9f9fb;
+    }
+    .search:focus {
+      outline: none;
+    }
+    ::placeholder {
+      color: #c6c6c6;
+      font-family: 'Manrope';
+      font-size: 14px;
+      font-weight: 500;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      width: 19px;
+      height: 19px;
+      left: 10px;
+      top: 7px;
+      background: url(../../../public/images/search.svg);
+    }
+  }
+}
+
+.navigations {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  .icons {
+    display: flex;
+    flex-direction: row;
+    .icon {
+      position: relative;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #f9f9fb;
+      margin-right: 20px;
+      cursor: pointer;
+      .icon img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .icon1 {
+      margin-right: 42px;
+    }
+    .icon_line {
+      display: flex;
+      padding-right: 20px;
+      border-left: 2px solid #f4f3f5;
+    }
+  }
+}
+
+.user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  .userMenu {
+    position: absolute;
+    top: 67px;
+    left: 60px;
+    z-index: 11;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    li {
+      padding: 15px;
+      opacity: 0.8;
+
+      color: #000;
+      transition: opacity 0.3s;
+      &:hover {
+        opacity: 1;
+        font-weight: 500;
+      }
+    }
+  }
+  .userImg {
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+}
