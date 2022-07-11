@@ -1,1 +1,2 @@
-# React + Typescript + Redux-toolkit
+# Stack:
+React + Typescript + Redux-toolkit
